@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBA08D7E22DEF85700252500 /* ARviewui.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA08D7D22DEF85700252500 /* ARviewui.swift */; };
+		EBA08D8622DEFC7400252500 /* SceneKit Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = EBA08D8522DEFC7400252500 /* SceneKit Scene.scn */; };
 		EBAF256822DECC430056F3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAF256722DECC430056F3D5 /* AppDelegate.swift */; };
 		EBAF256A22DECC430056F3D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAF256922DECC430056F3D5 /* ViewController.swift */; };
 		EBAF256D22DECC430056F3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAF256B22DECC430056F3D5 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EBA08D7D22DEF85700252500 /* ARviewui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARviewui.swift; sourceTree = "<group>"; };
+		EBA08D8522DEFC7400252500 /* SceneKit Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "SceneKit Scene.scn"; sourceTree = "<group>"; };
 		EBAF256422DECC430056F3D5 /* ARtafang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARtafang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAF256722DECC430056F3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBAF256922DECC430056F3D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				EBAF256722DECC430056F3D5 /* AppDelegate.swift */,
+				EBA08D7D22DEF85700252500 /* ARviewui.swift */,
 				EBAF256922DECC430056F3D5 /* ViewController.swift */,
 				EBAF256B22DECC430056F3D5 /* Main.storyboard */,
 				EBAF256E22DECC470056F3D5 /* Assets.xcassets */,
 				EBAF257022DECC470056F3D5 /* LaunchScreen.storyboard */,
 				EBAF257322DECC470056F3D5 /* Info.plist */,
+				EBA08D8522DEFC7400252500 /* SceneKit Scene.scn */,
 			);
 			path = ARtafang;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA08D8622DEFC7400252500 /* SceneKit Scene.scn in Resources */,
 				EBAF257222DECC470056F3D5 /* LaunchScreen.storyboard in Resources */,
 				EBAF256F22DECC470056F3D5 /* Assets.xcassets in Resources */,
 				EBAF256D22DECC430056F3D5 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA08D7E22DEF85700252500 /* ARviewui.swift in Sources */,
 				EBAF256A22DECC430056F3D5 /* ViewController.swift in Sources */,
 				EBAF256822DECC430056F3D5 /* AppDelegate.swift in Sources */,
 			);
